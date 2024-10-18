@@ -1,0 +1,43 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.singlePostImg {
+    max-width: 730px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    margin-bottom: 20px;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 30px;
+    margin-left: 15px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.singlePostData {
+    border-bottom: 1px solid;
+}

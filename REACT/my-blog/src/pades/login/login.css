@@ -1,0 +1,43 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(225, 225, 225, 0.5),
+        rgba(225, 225, 225, 0.5)), 
+    url("https://cdn-edge.kwork.ru/pics/t3/16/10236091-1603566384.jpg");
+    background-size: cover;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.loginForm > label {
+    margin-top: 10px;
+}
+
+.loginForm > input {
+    margin-top: 8px;
+}
+
+.loginBtn {
+    padding: 3px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+}
+
+.registerBtn {
+    padding: 3px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(148, 238, 230);
+}

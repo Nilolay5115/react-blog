@@ -13,6 +13,7 @@ ul {
     align-items: center;
     font-family: "Raleway", sans-serif;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .topLeft {

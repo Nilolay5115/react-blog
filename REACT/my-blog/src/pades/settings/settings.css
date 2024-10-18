@@ -1,0 +1,51 @@
+.settings {
+    display: flex;
+}
+
+.settingWrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.settingTitle {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.settingForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingPP > img {
+    max-width: 70px;   
+}
+
+.settingPPIcon {
+    font-size: 30px;
+    margin-left: 5px;
+    /* width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.settingForm > label {
+    margin-top: 15px;
+}
+
+.settingForm > input {
+    margin-top: 10px;
+}
+
+.settingForm > button {
+    margin-top: 8px;
+}
